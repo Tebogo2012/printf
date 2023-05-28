@@ -250,4 +250,7 @@ int write_pointer(char buffer[], int ind, int length,
 		buffer[--ind] = extra_c;
 	return (write(1, &buffer[ind], BUFF_SIZE - ind - 1));
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> f06cddc2ccfb408f6f703f1e2abbd7d3ae1f47af
